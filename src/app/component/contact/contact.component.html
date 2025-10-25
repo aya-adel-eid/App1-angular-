@@ -1,0 +1,35 @@
+<section class="contact">
+  <div class="container">
+    <div class="content d-flex align-items-center flex-column  ">
+
+      <!-- <div class="inputs ">
+        <div class="inputName">
+          <input type="text" placeholder="userName" class="form-control  ">
+        </div>
+        <div class="inputAge">
+          <input type="number" placeholder="userName" class="form-control  ">
+        </div>
+        <div class="inputEmail">
+          <input type="email" placeholder="userName" class="form-control  ">
+        </div>
+        <div class="inputPassword">
+          <input type="password" placeholder="userName" class="form-control  ">
+        </div>
+      </div> -->
+      <app-title [cssStyle]="'decoreContact'">
+        <h2 class="text-uppercase pb-2 text-center">abou component</h2>
+      </app-title>
+      <form action="" class="w-50">
+        <label for="name" class="top40">userName:</label>
+        <input type="text" placeholder="userName" class="form-control  py-4" id="name">
+        <label for="age" class="top40">userAge:</label>
+        <input type="number" placeholder="userAge" class="form-control py-4 " id="age">
+        <label for="email" class="top40">userEmail:</label>
+        <input type="email" placeholder="userEmail" class="form-control  py-4" id="email">
+        <label for="passorwd" class="top40">userPassword:</label>
+        <input type="password" placeholder="userPassword:" class="form-control py-4 " id="passowrd">
+        <button class="my-btn mt-3">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>

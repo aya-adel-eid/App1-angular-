@@ -1,0 +1,34 @@
+.portfolio {
+  min-height: 100vh;
+  margin-top: 120px;
+  padding-bottom: 20px;
+}
+img,
+.layer {
+  border-radius: 15px;
+}
+.item {
+  position: relative;
+}
+.layer {
+  position: absolute;
+  inset: 0;
+  background-color: #1abc9ce6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.layer:hover {
+  opacity: 1;
+  transition: 0.5s opacity;
+}
+.layer i {
+  color: #fff;
+}
+.ligtContainer {
+  background-color: #c2dbfe5f;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+}

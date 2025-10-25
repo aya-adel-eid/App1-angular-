@@ -1,0 +1,45 @@
+input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.contact {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.decore::after,
+.decore::before {
+  /* content: '';
+  width: 90px;
+  height: 3.5px; */
+  content: '';
+  background-color: red;
+  /* position: absolute; */
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #dee2e6;
+}
+.top40 {
+  font-size: 14px;
+  padding: 10px 0;
+  position: relative;
+  top: 40px;
+  transition: top 0.5s;
+  display: none;
+}
+.top0 {
+  color: #1abc9c;
+  top: 0;
+  display: block;
+}
+button {
+  background-color: #1abc9c;
+  color: #fff;
+}
+.my-btn {
+  border: 0;
+  outline: unset;
+  border-radius: 5px;
+  padding: 7px 10px;
+}

@@ -1,0 +1,28 @@
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  padding: 2px 0;
+  margin-left: 8px;
+  border-radius: 20px;
+}
+footer {
+  color: #fff;
+}
+footer .contact {
+  background-color: #2c3e50;
+  padding: 50px 0;
+  text-align: center;
+}
+.inner h3 {
+  font-size: 28px;
+}
+.bottom-Footer {
+  background-color: #1a252f;
+  padding: 20px 0;
+  text-align: center;
+}
