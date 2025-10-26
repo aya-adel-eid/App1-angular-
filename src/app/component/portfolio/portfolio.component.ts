@@ -21,13 +21,13 @@ export class PortfolioComponent {
   show(index: number): void {
     this.flag = false;
     this.currentImage = this.images[index];
-    console.log(this.currentImage);
+    // console.log(this.currentImage);
   }
   clossImage(): void {
     this.flag = true;
   }
   stopClick(event: PointerEvent): void {
     event.stopPropagation();
-    console.log(event.target);
+    // console.log(event.target);
   }
 }
